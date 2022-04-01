@@ -1,9 +1,9 @@
-var texto = 'Ximmena Zamora';
+var texto = 'Erick Ortiz';
 let edad=0;
 //edad ="nome la se";
 ///alert("Hola Mundo");
 let titulo= document.getElementById('titulo');
-let mensaje = 'Mi crush es: '+texto + ' y su edad es '+  (edad+23);
+let mensaje = 'Mi nombre es '+texto + ' y  tengo '+  (edad+21) + 'años';
 
 console.log('Hola mundo');
 console.log(mensaje);
@@ -12,6 +12,6 @@ titulo.style.color = "blue";
 titulo.style.textTransform = 'uppercase';
 
 titulo.onclick = function() {
-    titulo.innerHTML= "Le diste clic y ya no te quiere";
+    titulo.innerHTML= "Le diste clic y ya se cambio de texto";
     titulo.style.textTransform = 'lowercase';
 };
