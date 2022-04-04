@@ -1,125 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Border Radius Generator</title>
+    <title>INTRODUCCION A ES7</title>
 </head>
 <body>
-    <header>
-        <div class="titulo d-flex justify-content-center fw-bold fs-4">
-            Online Border Radius Generator
-        </div>
-        
-    </header>
-    <main class="container">
-        <section class="generator">
-            <div class="part1 d-flex flex-row mt-3">
-                <div class="part-1-1 d-flex justify-content-center">
-                    <div class="item-1 d-flex justify-content-center align-items-center flex-column">
-                        <input type="number" min="0" class="numero fw-bold text-center fs-4">
-                        <input class="mt-1" type="range" id="topleft" name="vol" min="0" max="40" value="0" >
-                        <div>
-                            <input class="check "type="checkbox" name="" id="" name="Allsamne">
-                            <span class="fs-5">All the same</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="part-1-2">
+    <h1 id="titulo">INTRODUCCION A JAVA SCRIPT</h1>
 
-                </div>
-                <div class="part-1-3 d-flex justify-content-center align-items-end">
-                    <div class="item-2 d-flex justify-content-center align-items-center flex-column">
-                        <input type="number" min="0" class="numero fw-bold text-center fs-4">
-                        <input class="mt-1" type="range" id="topright" name="vol" min="0" max="40" value="0" >
-                    </div>
-                </div>
-            </div>
 
-       
-            <div class="part2 d-flex justify-content-center align-items-center mt-3">
-                <div>
-                    <textarea class="fw-bold p-4"  name="" id="" cols="50" rows="5">
-                            
-                    </textarea>
-                </div>
-            </div>
-            <div class="part3">
-                <div class="part1 d-flex flex-row mt-3">
-                    <div class="part-1-1 d-flex justify-content-center">
-                        <div class="item-3 d-flex justify-content-center align-items-center flex-column">
-                            <input type="number" min="0" class="numero fw-bold text-center fs-4">
-                            <input class="mt-1" type="range" id="bottomleft" name="vol" min="0" max="40" value="0">
-                        </div>
-                    </div>
-                    <div class="part-1-2">
-    
-                    </div>
-                    <div class="part-1-3 d-flex justify-content-center align-items-end">
-                        <div class="item-4 d-flex justify-content-center align-items-center flex-column">
-                            <input type="number" min="0" class="numero fw-bold text-center fs-4">
-                            <input class="mt-1" type="range" id="bottomright" name="vol" min="0" max="40" value="0" >
-                        </div>
-                    </div>
-            </div>
-        </section >
-        <section class="buttoms mt-5 d-flex flex-column">
-            <div class="p1 d-flex flex-row mt-6">
-                <div class="widthsec ms-5">
-                    <span class="fs-5">Width:</span>
-                    <button class="buttun1">
-                        <span class="fs-5">1</span>
-                    </button>
-                </div>
-                <input class="mt-1 ms-3" type="range" id="widthrange" name="vol" min="0" max="30" value="0" >
-            </div>
-            <div class="p2 d-flex flex-row mt-3 w-100">
-                <div class="stylesec ms-5 d-flex justify-content-end">
-                    <span class="fs-5">Style:</span>
-                </div>
-                <button class="solid ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">solid</span></button>
-                <button class="dotted ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dotted</span></button>
-                <button class="dashed ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dashed</span></button>
-                <button class="double ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">double</span></button>
-                <button class="groove ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">groove</span></button>
-                <button class="ridge ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">ridge</span></button>
-                <button class="inset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">inset</span></button>
-                <button class="outset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">outset</span></button>
-                <button class="hidden ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">hideen</span></button>
-                <button class="none ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">none</span></button>
-            </div>
-            <div class="p3 d-flex flex-row mt-3">
-                <div class="colorsec ms-5 d-flex justify-content-end">
-                    <span class="fs-5">Color:</span>
-                </div>
-                <input class="color ms-3" type="color" name="" id="">
-                <input class="ms-3" type="range" min="0" max="1" value="0" id=""> 
-                <button class="buttun1 ms-5">
-                    <span class="fs-5">1</span>
-                </button>
-            </div>
-            <div class="p4 d-flex flex-row mt-3">
-                <div class="positionsec ms-5 d-flex justify-content-end">
-                    <span class="fs-5">Position:</span>
-                </div>
-                <button class="all ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">All</span></button>
-                <button class="top ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Top</span></button>
-                <button class="right ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Right</span></button>
-                <button class="bottom ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Bottom</span></button>
-                <button class="left ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Left</span></button>
 
-            </div>
-   
-        </section>
-    </main>
-    <footer class="card-footer bg-light text-center text-lg-start">
-        <div class="text-center">
-            <a href="https://github.com/erickortizc" target="blank_">ERICK ORTIZ</a> <span>© 2020 Copyright</span>
-        </div>
-    </footer>
-    
+    <script src="js/main.js"></script>
 </body>
 </html>
