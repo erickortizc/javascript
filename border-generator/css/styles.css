@@ -237,4 +237,19 @@ textarea
     border-left: 5px solid #1C6EA4;
     background: #EEEEEE;
 }
-
+.top:hover
+{
+    background: #D0E4F5;
+}
+.right:hover
+{
+    background: #D0E4F5;
+}
+.left:hover
+{
+    background: #D0E4F5;
+}
+.bottom:hover
+{
+    background: #D0E4F5;
+}
