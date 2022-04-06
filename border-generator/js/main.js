@@ -20,6 +20,8 @@ let widthLabel = document.getElementById('widthLabel');
 //Color part
 let inputColor = document.getElementById('inputColor');
 let alphaBorder = document.getElementById('alphaBorder');
+let opacityborder = document.getElementById('opacityborder');
+let opacitylabel = document.getElementById('opacitylabel');
 //Buttons part
 let solidb = document.getElementById('solidb');  
 let dottedb = document.getElementById('dottedb');
@@ -89,6 +91,7 @@ inputColor.oninput = function(e)
 alphaBorder.oninput = function(e)
 {
     tareview.style.opacity = (alphaBorder.value)/100;
+    opacitylabel.innerHTML=(alphaBorder.value)/100;
 }; 
 radiousRT.oninput= function (e)
 {
@@ -212,4 +215,10 @@ inputRB.oninput = function (e)
 {
     radiousRB.value=inputRB.value;
     tareview.style.borderBottomRightRadius=inputRB.value + 'px';
+};
+opacityborder.onclick = function (e)
+{
+    tareview.style.opacity=1;  
+    alphaBorder.value = 100;
+    opacitylabel.innerHTML=1;
 };
