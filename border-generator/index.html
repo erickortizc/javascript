@@ -17,51 +17,55 @@
     </header>
     <main class="container mb-5">
         <section class="generator" >
+            <!-- Caja top izquierda -->
             <div class="part1 d-flex flex-row mt-3">
                 <div class="part-1-1 d-flex justify-content-center">
                     <div class="item-1 d-flex justify-content-center align-items-center flex-column">
-                        <input type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
-                        <input class="mt-1" type="range" id="topleft" name="vol" min="0" max="40" value="0" >
+                        <input type="number" min="0" class="numero fw-bold text-center fs-4" value="0" id="inputLT">
+                        <input class="mt-1" type="range" id="radiousLT"  min="0" max="40" value="0" >
                         <div>
-                            <input class="check "type="checkbox" name="" id="" name="Allsamne">
-                            <span class="fs-5">All the same</span>
+                            <input class="check "type="checkbox" id="allRadiuous" >
+                            <span for="allRadiuous" class="fs-5">All the same</span>
                         </div>
                     </div>
                 </div>
                 <div class="part-1-2">
 
                 </div>
+                <!-- Caja top derecha -->
                 <div class="part-1-3 d-flex justify-content-center align-items-end">
                     <div class="item-2 d-flex justify-content-center align-items-center flex-column">
-                        <input type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
-                        <input class="mt-1" type="range" id="topright" name="vol" min="0" max="40" value="0" >
+                        <input id="inputRT" type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
+                        <input id="radiousRT" class="mt-1" type="range"  min="0" max="40" value="0" >
                     </div>
                 </div>
             </div>
 
-       
-            <div class="part2 d-flex justify-content-center align-items-center mt-3">
-                <div>
-                    <textarea class="fw-bold p-4"  name="" id="" cols="50" rows="5">
+            <!-- Caja medio -->
+            <div class="part2 d-flex justify-content-center align-items-center mt-3 w-100">
+  
+                    <textarea  id="tareview" class=" fw-bold p-4"  name="" id="" cols="50" rows="5" spellcheck="false">
                             
                     </textarea>
-                </div>
+
             </div>
             <div class="part3">
+                <!-- Caja bottom izquierda -->
                 <div class="part1 d-flex flex-row mt-3">
                     <div class="part-1-1 d-flex justify-content-center">
                         <div class="item-3 d-flex justify-content-center align-items-center flex-column">
-                            <input type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
-                            <input class="mt-1" type="range" id="bottomleft" name="vol" min="0" max="40" value="0">
+                            <input id="inputLB" type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
+                            <input id="radiousLB" class="mt-1" type="range" id="bottomleft" name="vol" min="0" max="40" value="0">
                         </div>
                     </div>
                     <div class="part-1-2">
-    
+                        <!-- Caja bottom centro -->
                     </div>
+                    <!-- Caja bottom derecha -->
                     <div class="part-1-3 d-flex justify-content-center align-items-end">
                         <div class="item-4 d-flex justify-content-center align-items-center flex-column">
-                            <input type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
-                            <input class="mt-1" type="range" id="bottomright" name="vol" min="0" max="40" value="0" >
+                            <input id="inputRB" type="number" min="0" class="numero fw-bold text-center fs-4" value="0">
+                            <input id="radiousRB" class="mt-1" type="range" id="bottomright" name="vol" min="0" max="40" value="0" >
                         </div>
                     </div>
             </div>
@@ -70,33 +74,34 @@
             <div class="p1 d-flex flex-row mt-6">
                 <div class="widthsec ms-5">
                     <span class="fs-5">Width:</span>
-                    <button class="buttun1">
+                    <button class="buttun1" id="widthButton">
                         <span class="fs-5">1</span>
                     </button>
                 </div>
-                <input class="mt-1 ms-3" type="range" id="widthrange" name="vol" min="0" max="30" value="0" >
+                <input class="mt-1 ms-3" type="range" id="withborder" name="vol" min="0" max="30" value="1" >
+                <label id="widthLabel" for=""></label>
             </div>
             <div class="p2 d-flex flex-row mt-3 w-100">
                 <div class="stylesec ms-5 d-flex justify-content-end">
                     <span class="fs-5">Style:</span>
                 </div>
-                <button class="solid ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">solid</span></button>
-                <button class="dotted ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dotted</span></button>
-                <button class="dashed ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dashed</span></button>
-                <button class="double ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">double</span></button>
-                <button class="groove ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">groove</span></button>
-                <button class="ridge ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">ridge</span></button>
-                <button class="inset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">inset</span></button>
-                <button class="outset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">outset</span></button>
-                <button class="hidden ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">hideen</span></button>
-                <button class="none ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">none</span></button>
+                <button value="solid" id="solidb" class="botonstyle solid ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">solid</span></button>
+                <button value="dotted" id="dottedb" class="botonstyle dotted ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dotted</span></button>
+                <button value="dashed" id="dashedb" class="botonstyle dashed ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">dashed</span></button>
+                <button id="doubleb" class="double ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">double</span></button>
+                <button id="grooveb" class="groove ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">groove</span></button>
+                <button id="ridgeb" class="ridge ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">ridge</span></button>
+                <button id="insetb" class="inset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">inset</span></button>
+                <button id="outset" class="outset ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">outset</span></button>
+                <button id="hiddenb" class="hidden ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">hidden</span></button>
+                <button id="noneb" class="none ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">none</span></button>
             </div>
             <div class="p3 d-flex flex-row mt-3">
                 <div class="colorsec ms-5 d-flex justify-content-end">
                     <span class="fs-5">Color:</span>
                 </div>
-                <input class="color ms-3" type="color" name="" id="">
-                <input class="ms-3" type="range" min="0" max="1" value="0" id=""> 
+                <input class="color ms-3" type="color" name="" id="inputColor">
+                <input class="ms-3" type="range" min="0" max="100" value="0" id="alphaBorder"> 
                 <button class="buttun1 ms-5">
                     <span class="fs-5">1</span>
                 </button>
@@ -105,11 +110,11 @@
                 <div class="positionsec ms-5 d-flex justify-content-end">
                     <span class="fs-5">Position:</span>
                 </div>
-                <button class="all ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">All</span></button>
-                <button class="top ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Top</span></button>
-                <button class="right ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Right</span></button>
-                <button class="bottom ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Bottom</span></button>
-                <button class="left ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Left</span></button>
+                <button id="allb" class="all ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">All</span></button>
+                <button id="topb" class="top ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Top</span></button>
+                <button id="rightb" class="right ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Right</span></button>
+                <button id="bottomb" class="bottom ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Bottom</span></button>
+                <button id="leftb" class="left ms-3 d-flex justify-content-center align-items-center"> <span class="fw-bolder fs-5">Left</span></button>
 
             </div>
    
@@ -120,6 +125,8 @@
             <a href="https://github.com/erickortizc" target="blank_">ERICK ORTIZ</a> <span>© 2022 Copyright</span>
         </div>
     </footer>
+    <script src="js/main.js">
+    </script>
     
 </body>
 </html>
