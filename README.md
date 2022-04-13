@@ -1,6 +1,6 @@
 # javascript
 links pages:
-1 https://erickortizc.github.io/
+1 Border generator https://erickortizc.github.io/javascript/border-generator/
 2 https://erickortizc.github.io/
 3 
 4 
