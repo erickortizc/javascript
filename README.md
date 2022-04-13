@@ -7,5 +7,6 @@ Link de portafolio:
 - Nav responsivo https://erickortizc.github.io/javascript/reviews/
 - Side bar https://erickortizc.github.io/javascript/SideBar/
 - Modal https://erickortizc.github.io/javascript/modal/
+- Questions https://erickortizc.github.io/javascript/Questions/
 
 
