@@ -6,4 +6,6 @@ Link de portafolio:
 - Reviews https://erickortizc.github.io/javascript/reviews/
 - Nav responsivo https://erickortizc.github.io/javascript/reviews/
 - Side bar https://erickortizc.github.io/javascript/SideBar/
+- Modal https://erickortizc.github.io/javascript/modal/
+
 
