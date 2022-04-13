@@ -5,5 +5,5 @@ Link de portafolio:
 - Counter https://erickortizc.github.io/javascript/counter/
 - Reviews https://erickortizc.github.io/javascript/reviews/
 - Nav responsivo https://erickortizc.github.io/javascript/reviews/
-- Aside bar https://erickortizc.github.io/javascript/AsideBar/
+- Side bar https://erickortizc.github.io/javascript/SideBar/
 
