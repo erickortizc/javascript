@@ -12,4 +12,5 @@ Link de portafolio:
 - Video https://erickortizc.github.io/javascript/FondoVideo/
 - Scroll https://erickortizc.github.io/javascript/Scroll/
 - Tabs https://erickortizc.github.io/javascript/Tabs/
+- Countdown timer https://erickortizc.github.io/javascript/Countdown/
 
