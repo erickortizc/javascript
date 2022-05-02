@@ -16,4 +16,8 @@ Link de portafolio:
 - Lorem Generator https://erickortizc.github.io/javascript/Lorem
 - Wihs List https://erickortizc.github.io/javascript/Wish/
 - Slide https://erickortizc.github.io/javascript/Slider/
-
+- Piedra, Papel o tijera https://erickortizc.github.io/javascript/Piedra/
+- Juego de Simon https://erickortizc.github.io/javascript/Simon/
+- Juego de plataformas https://erickortizc.github.io/javascript/Plataformas/
+- Doddle Jump https://erickortizc.github.io/javascript/Duddle/
+- Flappy bird https://erickortizc.github.io/javascript/Flappy/
