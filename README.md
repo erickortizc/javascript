@@ -25,3 +25,6 @@ Link de portafolio:
 - Space invaders https://erickortizc.github.io/javascript/Space/
 - Snake https://erickortizc.github.io/javascript/Snake/
 - Conecta 4 https://erickortizc.github.io/javascript/Conecta/
+- Whack a mole https://erickortizc.github.io/javascript/Whack-a-mole/
+- Frogger https://erickortizc.github.io/javascript/Frogger/
+- Tetris https://erickortizc.github.io/javascript/Tetris/
