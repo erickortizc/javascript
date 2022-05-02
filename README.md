@@ -18,6 +18,6 @@ Link de portafolio:
 - Slide https://erickortizc.github.io/javascript/Slider/
 - Piedra, Papel o tijera https://erickortizc.github.io/javascript/Piedra/
 - Juego de Simon https://erickortizc.github.io/javascript/Simon/
-- Juego de plataformas https://erickortizc.github.io/javascript/Plataformas/rabbit-trap.html/
+- Juego de plataformas https://erickortizc.github.io/javascript/Plataformas/rabbit-trap.html
 - Doddle Jump https://erickortizc.github.io/javascript/Duddle/
 - Flappy bird https://erickortizc.github.io/javascript/Flappy/
