@@ -13,4 +13,7 @@ Link de portafolio:
 - Scroll https://erickortizc.github.io/javascript/Scroll/
 - Tabs https://erickortizc.github.io/javascript/Tabs/
 - Countdown timer https://erickortizc.github.io/javascript/Countdown/
+- Lorem Generator https://erickortizc.github.io/javascript/Lorem
+- Wihs List https://erickortizc.github.io/javascript/Wish/
+- Slide https://erickortizc.github.io/javascript/Slider/
 
