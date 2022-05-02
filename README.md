@@ -21,3 +21,4 @@ Link de portafolio:
 - Juego de plataformas https://erickortizc.github.io/javascript/Plataformas/rabbit-trap.html
 - Doddle Jump https://erickortizc.github.io/javascript/Duddle/
 - Flappy bird https://erickortizc.github.io/javascript/Flappy/
+- Memorama https://erickortizc.github.io/javascript/Memmorama/
