@@ -11,5 +11,5 @@ Link de portafolio:
 - Menu https://erickortizc.github.io/javascript/menu/
 - Video https://erickortizc.github.io/javascript/FondoVideo/
 - Scroll https://erickortizc.github.io/javascript/Scroll/
-- Scroll https://erickortizc.github.io/javascript/Tabs/
+- Tabs https://erickortizc.github.io/javascript/Tabs/
 
