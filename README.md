@@ -22,3 +22,6 @@ Link de portafolio:
 - Doddle Jump https://erickortizc.github.io/javascript/Duddle/
 - Flappy bird https://erickortizc.github.io/javascript/Flappy/
 - Memorama https://erickortizc.github.io/javascript/Memmorama/
+- Space invaders https://erickortizc.github.io/javascript/Space/
+- Snake https://erickortizc.github.io/javascript/Snake/
+- Conecta 4 https://erickortizc.github.io/javascript/Conecta/
