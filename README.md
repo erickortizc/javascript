@@ -29,5 +29,6 @@ JAVASCRIPT:
 - Whack a mole https://erickortizc.github.io/javascript/Whack-a-mole/
 - Frogger https://erickortizc.github.io/javascript/Frogger/
 - Tetris https://erickortizc.github.io/javascript/Tetris/
+
 JQUERY:
 -INTRODUCCION A JQUERY: https://erickortizc.github.io/javascript/JQUERY/
