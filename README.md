@@ -1,5 +1,6 @@
 # javascript
 Link de portafolio:
+JAVASCRIPT:
 - Border generator https://erickortizc.github.io/javascript/border-generator/
 - Aleta Color https://erickortizc.github.io/javascript/aleta-color/
 - Counter https://erickortizc.github.io/javascript/counter/
@@ -28,3 +29,5 @@ Link de portafolio:
 - Whack a mole https://erickortizc.github.io/javascript/Whack-a-mole/
 - Frogger https://erickortizc.github.io/javascript/Frogger/
 - Tetris https://erickortizc.github.io/javascript/Tetris/
+JQUERY:
+-INTRODUCCION A JQUERY: https://erickortizc.github.io/javascript/JQUERY/
